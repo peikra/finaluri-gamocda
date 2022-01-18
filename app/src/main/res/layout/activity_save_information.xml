@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C38BC"
+
+
+    tools:context=".SaveInformationActivity">
+
+    <ImageView
+        android:layout_width="399dp"
+        android:layout_height="250dp"
+        android:src="@drawable/madrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:gravity="center"
+            android:text="Save Information"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="24sp"
+            android:ems="10"
+            android:hint="Firstname"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="24sp"
+            android:ems="10"
+            android:hint="Lastname"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="24sp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/buttonsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="24sp"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24sp"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="10sp"
+            android:text="back" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

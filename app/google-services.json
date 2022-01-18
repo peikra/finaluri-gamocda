@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "240128463784",
+    "project_id": "finaluri-gamocda-e931f",
+    "storage_bucket": "finaluri-gamocda-e931f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240128463784:android:76696d8eb972f4efac839d",
+        "android_client_info": {
+          "package_name": "com.example.realmadrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240128463784-tkjjufsqiih180s3aaab7vduq23sjdh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvZHOa5coBR111ogcIl94tlRb33426zdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240128463784-tkjjufsqiih180s3aaab7vduq23sjdh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
